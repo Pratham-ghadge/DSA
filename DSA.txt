@@ -1,0 +1,34 @@
+DSA
+
+day 22-03-2025
+
+patterns
+
+n = 5
+
+first line 5 star second line 4 star and the third line have the 3 star and the fourth line have 2 star and fifth line have the 1 star
+
+outer loop   star   so patter is like  1 =  n - i 
+1              5
+2              4
+3              3
+4              2
+5              1
+
+2] now print this pattern  n=5
+                 [space, star, space][(n-i-1),(i+1),(n-i-1)]
+       *         [4 , 1 , 4] i=0
+      * *        [3 , 2 , 3] i=1
+     * * *       [2 , 3 , 2] i=2
+    * * * *      [1 , 4 , 1] i=3
+   * * * * *     [0 , 5 , 0] i=4
+
+3] reverse of upper Pattern
+first approach is reverse outer loop
+   n=5
+ [space, star, space]
+ [] i=0
+ [] i=1
+ [] i=2
+ [] i=3
+ [] i=4
